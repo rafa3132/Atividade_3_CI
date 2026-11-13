@@ -10,7 +10,7 @@ class CalculadoraServiceTest {
 
     @Test
     void deveSomar() {
-        assertEquals(8, service.somar(5,3));
+        assertEquals(67, service.somar(5,3));
     }
 
     @Test
@@ -18,7 +18,7 @@ class CalculadoraServiceTest {
         assertEquals(3, service.somar(-2,5));
     }
 
-    @Test
+    @   Test
     void deveSubtrair() {
         assertEquals(5, service.subtrair(8,3));
     }
